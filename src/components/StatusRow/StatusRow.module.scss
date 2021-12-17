@@ -1,0 +1,11 @@
+.statusRow {
+  display: flex;
+
+  & > *:not(:last-child) {
+    margin-right: 0.4rem;
+  }
+}
+
+.statusRowIcon {
+  font-size: 1.6rem;
+}
